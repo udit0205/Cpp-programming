@@ -6,8 +6,8 @@ int main() {
     int element, position;
 
     std::cout << "Current array: ";
-    for (int n : arr) std::cout << n << " ";
-    std::cout << "\nEnter element to insert: ";
+    for (int n : arr) std::cout << n << " "; 
+    std::cout << "\nEnter element to insert: ";  
     std::cin >> element;
     std::cout << "Enter position (0-based index): ";
     std::cin >> position;
